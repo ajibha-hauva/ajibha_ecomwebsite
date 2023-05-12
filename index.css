@@ -1,136 +1,128 @@
-@import url ('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-:root{
-    --green: rgb(128, 255, 0);
-    --black: rgba(53, 32, 32, 0.468);
-    --light-color:  rgb(55, 107, 4);
-    --box-shadow: 1rem 0.5rem rgba(0,0,0.1);
-    --border: 1.5rem solid rgba(0,0,0.1);
-    --outline: 5px solid black;
-
-}
-
 *
-
-{
-    font-family: 'poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all .2s linear;
-}
-
-html{
-    font-size:medium;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
-
-}
-
 body{
-    background: #eee;
-
+    background: whitesmoke;
+    margin: auto;
 }
 
-.header{
-    border: 0px solid;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding:2rem ;
-    background: #fff;
-    box-shadow: var(--box-shadow);
-
-}
-
-#logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--light-color);
-}
-
-#logo i{
-    color:  rgba(251, 71, 170, 0.993);
-}
-
-.navbar{
-    border: .5px solid
-    font-size: medium;
-    margin: 2px;
-    color: var(--black);
-
-}
-
-.navbar a:hover{
-    color: var(--green);
-}
-
-.mcs  div{
-    border: .2px solid var(--light-color);
-    height: 1.5rem;
-    width: 1.5rem;
-    border-radius: 40%;
-    line-height: 1.5rem;
-    color: #fff;
-    font-size:1.2rem;
-    background: black;
-    text-align: center;
-    margin-right: 1px ;
-    cursor: pointer;
-}
-
-.mcs div:hover{
-    background: var(--light-color);
-}
-
-#mnbtn{
-    display: none;
-}
-
-.searchbar{
-    border: 1px solid bisque;
-    position: absolute;
-    top: 110%;
-    right: -110%;
-    border-radius: 2rem;
-    height: 40px;
-    width: 25rem;
-    background: #fff;
-    overflow: hidden;
-    display: flex;
-    align-self: center;
-    box-shadow: rgb(106, 105, 105);
-    text-align: right;
-}
-
-
-#search-bar input{
-    height: 100%;
+/* HEADER */
+header{
+    border: 2px dotted yellowgreen;
+    background-color:rgba(153, 205, 50, 0.553);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(206, 80, 34);
+    height: 80px;
     width: 100%;
-    background: #fff;
-    text-transform: none;
-    font-size: 1.6rem;
-    color: var(--black);
-    padding: 0 1.5rem;
+    z-index: 1;
+    }
+    
+.logo{
+    height:33px;
+    border-radius: 50%;
+    float: left;
+}
+#logo{
+    margin-left: 5px;
+    float:left;
 }
 
-.search-bar label{
-    font-size: 2.2rem;
-    padding-right: 1.5rem;
-    color: var(--black);
-    cursor: pointer;
+/*NAVIGATION*/
+#nav{
+    font-size: 30px;
+    color:brown;
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.navbar{
+    
+    
 }
 
-.search-bar label:hover{
-    color: var(--green)
+/*search by category*/
+.searchbycategory{
+    border: 2px dashed rosybrown;
+    background-color: rosybrown;
+    height: 457px;
+    width: 20.3%;
+    float: left;
+    z-index: 1;
+}
 
+/*SEARCH BAR*/
+.searchbar{
+    border: 2px solid indianred;
+    background-color: indianred;
+    width: 79%;
+    height:45px;
+    float:right;
+}
+
+/*PRODUCT SEARCH*/
+#searchproduct{
+    border: 2px solid indianred;
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2px;
+    align-items: center;
+    z-index: 1;
+}
+
+/*SLIDER*/
+.slidingbanner{
+    border: 2px solid rgba(78, 82, 79, 0.696);
+    background-image: url('image/banner-img.jpg');
+    width: 79%;
+    height: 250px;
+    float: right;
+    background-size: 100% 250px;
+    z-index: 1;
+}
+
+/*PRODUCT LISTING*/
+.productslist{
+    border: 2px solid rgb(8, 128, 184);
+    background-color: whitesmoke;
+    width: 79%;
+    height: 310px;
+    float: right;
+    z-index: 1;
+}
+
+/*DEALS*/
+.deals{
+    border: 2px groove blueviolet ;
+    background-image: url('slider\ banner\ 1\ \(1\).webp');
+    background-size: 100% 200px;
+    height: 200px;
+    width: 100%;
+    float: left;
+    z-index: 1;
+}
+.deal1{
+    border: 2px groove blueviolet ;
+    background-image: url('slider\ banner\ 1\ \(1\).webp');
+    background-size: 100% 200px;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.deal2{
+    border: 2px groove blueviolet ;
+    background-image: url('slider\ banner\ 1\ \(2\).webp');
+    background-size: 100% 200px;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+
+/*FOOTER*/
+.footer{
+    border: 2px double red;
+    background: red;
+    height: 100px;
+    width: 100%;
+    float: left;
+    z-index: 1;
 }

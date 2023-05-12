@@ -4,47 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery Basket</title>
-
-    <link rel="stylesheet" href="index.css"/>
+    <title>Online Bazaar</title>
+    <link href="image/ob-Logo.png" rel="icon">
+    <link href="index.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-
-<!--header-->
-    <header class="header">
-        <a href="#" id="logo"> 
-            <i class="fa fa-shopping-basket"></i>
-            GROCERY BASKET
-        </a>
-
-        <nav class="navbar">
-            <ul>
-            <a href="#home">Home   </a>
-            <a href="#categories">  Categories   </a>
-            <a href="#features">  Features   </a>
-            <a href="#products">  Products   </a>
-            <a href="blogs">  Blogs  </a>
-            </ul>
-        </nav>
-
-        <div class="mcs"> 
-            <div class=" fa fa-bars" id="mnbtn"></div>
-            <div class=" fa fa-search" id="schbtn"></div>
-            <div class=" fa fa-shopping-cart" id="cartbtn"></div>
-            <div class=" fa fa-user" id="user"></div>
-
-            <form class="searchbar">
-                <input type="search" id="search-bar" placeholder="     search here">
-                <label for="search-bar" class="fa fa-search" ></label>
-            </form>
-
+    <header>
+        <div id="logo">
+            <h1>
+            <img src="image/ob-Logo.png" alt="logo" class="logo">
+            ONLINE BAZAAR</h1>
         </div>
 
+        <div id="nav">
+            <nav class="navbar">
+                <a href="#home">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+                <a href="#locate me">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </a>
+                <a href="#search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+                <a href="#wishlist">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+                <a href="#cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+                <a href="#signup">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                </a>
+                <a href=" ">
+                </a>
+            </nav>
+        </div>     
     </header>
 
+<!--search by category-->
+    <div class="search">
+        <div class="searchbycategory">
+
+    </div>
+
+<!--searchbar-->
+    <div class="searchbar">
+        <input type="text" id="searchproduct">
+        </input>
+    
+    </div>
+    
+<!--product showcase-->
+    <div class="productshowcase"> 
+
+        <div class="slidingbanner">
+            
+        </div>
+
+        <div class="productslist">
+            
+        </div>
+
+        <div class="deals">
+            <div class="deal1">
+        
+            
+            </div>
+            <div class="deal2">
+        
+            
+            </div>
+            
+        </div>
+
+    </div>
+    
+    <footer>
+        <div class="footer">
+
+        </div>
+    </footer>  
+    
     
 
 
@@ -53,16 +98,8 @@
 
 
 
+<script src="js/script.js"></script>
 
-
-
-
-
-
-
-
-
-
-<script src="js/script.js">
 </body>
+
 </html>
