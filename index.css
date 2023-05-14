@@ -54,8 +54,8 @@ header{
     border: 2px solid indianred;
     background-color: indianred;
     width: 79%;
-    height:45px;
-    float:right;
+    height:50px;
+    float: right;
 }
 
 /*PRODUCT SEARCH*/
@@ -82,17 +82,54 @@ header{
 
 /*PRODUCT LISTING*/
 .productslist{
-    border: 2px solid rgb(8, 128, 184);
-    background-color: whitesmoke;
+    border: 1px ;
+    /*background-color: whitesmoke;*/
     width: 79%;
-    height: 310px;
+    height:auto;
     float: right;
     z-index: 1;
 }
 
+.container{
+    border: 1px double rgba(101, 228, 101, 0.605);
+    height: 250px;
+    width: 150px ;
+    margin-top: 6px;
+    margin-left: 12px;
+    margin-bottom: 6px;
+    float:left;
+}
+
+.imgbox{
+    border: 1px rgb(205, 220, 176);
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 120px;
+    width: 130px;
+    background-size: 110% 120px ;
+}
+
+.productname{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+button{
+    height: 45px;
+    width: 75px;
+    font-size: small;
+    margin-top: 3px;
+    margin-left: 35px;
+    color: brown;
+}
+
+
 /*DEALS*/
 .deals{
-    border: 2px groove blueviolet ;
+    border: 1px solid rgb(25, 3, 46) ;
     background-image: url('slider\ banner\ 1\ \(1\).webp');
     background-size: 100% 200px;
     height: 200px;
@@ -101,14 +138,14 @@ header{
     z-index: 1;
 }
 .deal1{
-    border: 2px groove blueviolet ;
+    border: 1px  ;
     background-image: url('slider\ banner\ 1\ \(1\).webp');
-    background-size: 100% 200px;
+    background-size: 100% 199px;
     height: 200px;
     width: 100%;
     float: left;
 }
-.deal2{
+/*.deal2{
     border: 2px groove blueviolet ;
     background-image: url('slider\ banner\ 1\ \(2\).webp');
     background-size: 100% 200px;
@@ -119,9 +156,9 @@ header{
 
 /*FOOTER*/
 .footer{
-    border: 2px double red;
-    background: red;
-    height: 100px;
+    border: 2px double rgba(153, 205, 50, 0.553);
+    background: rgba(112, 165, 4, 0.703);
+    height: 200px;
     width: 100%;
     float: left;
     z-index: 1;
