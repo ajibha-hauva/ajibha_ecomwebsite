@@ -1,58 +1,62 @@
 *
 body{
-    background: whitesmoke;
+    background: #fff;
     margin: auto;
 }
 
 /* HEADER */
 header{
-    border: 2px dotted yellowgreen;
-    background-color:rgba(153, 205, 50, 0.553);
+    border: 2px dotted #6e8658;
+    background-color:#6e8658;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
-    color: rgb(206, 80, 34);
+    font-size: medium;
+    color: #efe9e1;
     height: 80px;
     width: 100%;
     z-index: 1;
-    }
+}
     
 .logo{
     height:33px;
     border-radius: 50%;
     float: left;
+    margin-right: 2px;
 }
+
 #logo{
     margin-left: 5px;
     float:left;
 }
 
 /*NAVIGATION*/
-#nav{
+#nav a{
     font-size: 30px;
-    color:brown;
+    color: #efe9e1;
     float:right;
-    margin-right: 20px;
+    margin-right: 5px;
     margin-top: 20px;
+    justify-content: space-between;
+    padding: 2px 1%;
 }
 .navbar{
-    
-    
+   
 }
 
 /*search by category*/
 .searchbycategory{
-    border: 2px dashed rosybrown;
-    background-color: rosybrown;
+    border: 2px double #efe9e1;
+    background-color: #fff;
     height: 457px;
     width: 20.3%;
     float: left;
+    margin-top: 2px;
     z-index: 1;
 }
 
 /*SEARCH BAR*/
 .searchbar{
-    border: 2px solid indianred;
-    background-color: indianred;
+    border: 2px solid #57473a;
+    background-color: #57473a;
     width: 79%;
     height:50px;
     float: right;
@@ -60,7 +64,7 @@ header{
 
 /*PRODUCT SEARCH*/
 #searchproduct{
-    border: 2px solid indianred;
+    border: 2px solid #57473a;
     height: 80%;
     width: 90%;
     margin-left: 5%;
@@ -71,7 +75,7 @@ header{
 
 /*SLIDER*/
 .slidingbanner{
-    border: 2px solid rgba(78, 82, 79, 0.696);
+    border: 2px solid #d0d5ce;
     background-image: url('image/banner-img.jpg');
     width: 79%;
     height: 250px;
@@ -86,15 +90,17 @@ header{
     /*background-color: whitesmoke;*/
     width: 79%;
     height:auto;
-    float: right;
+    float: left;
     z-index: 1;
 }
 
 .container{
     border: 1px double rgba(101, 228, 101, 0.605);
+    border-radius: 5%;
+    background-color: white;
     height: 250px;
     width: 150px ;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-left: 12px;
     margin-bottom: 6px;
     float:left;
@@ -102,28 +108,32 @@ header{
 
 .imgbox{
     border: 1px rgb(205, 220, 176);
-    margin-top: 10px;
-    margin-left: 10px;
-    height: 120px;
-    width: 130px;
-    background-size: 110% 120px ;
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 130px;
+    width: 140px;
+    background-size: 100% 120px ;
 }
 
 .productname{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     font-weight: 100;
     text-align: center;
-
 }
 
 button{
-    height: 45px;
-    width: 75px;
+    border: 1px double #290907;
+    background-color: #290907;
+    border-radius: 10%;
+    height: 40px;
+    width: 95px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: small;
-    margin-top: 3px;
+    font-weight: 200;
+    margin-top: 1px;
     margin-left: 35px;
-    color: brown;
+    color: #efe9e1;
 }
 
 
@@ -156,8 +166,8 @@ button{
 
 /*FOOTER*/
 .footer{
-    border: 2px double rgba(153, 205, 50, 0.553);
-    background: rgba(112, 165, 4, 0.703);
+    border: 2px double #d0d5ce;
+    background: #d0d5ce;
     height: 200px;
     width: 100%;
     float: left;
