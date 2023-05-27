@@ -1,6 +1,6 @@
 *
 body{
-    background: #fff;
+    background: #efe9e1;
     margin: auto;
 }
 
@@ -32,14 +32,12 @@ header{
 #nav a{
     font-size: 30px;
     color: #efe9e1;
+    text-transform: yellowgreen;
     float:right;
     margin-right: 5px;
     margin-top: 20px;
     justify-content: space-between;
     padding: 2px 1%;
-}
-.navbar{
-   
 }
 
 /*search by category*/
@@ -95,8 +93,8 @@ header{
 }
 
 .container{
-    border: 1px double rgba(101, 228, 101, 0.605);
-    border-radius: 5%;
+    border: 2px solid rgba(101, 228, 101, 0.605);
+    border-radius: 2rem;
     background-color: white;
     height: 250px;
     width: 150px ;
@@ -108,6 +106,7 @@ header{
 
 .imgbox{
     border: 1px rgb(205, 220, 176);
+    border-radius: 5rem;
     margin-top: 3px;
     margin-left: 5px;
     height: 130px;
@@ -125,7 +124,7 @@ header{
 button{
     border: 1px double #290907;
     background-color: #290907;
-    border-radius: 10%;
+    border-radius: 4rem;
     height: 40px;
     width: 95px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -148,7 +147,7 @@ button{
     z-index: 1;
 }
 .deal1{
-    border: 1px  ;
+    /*border: 1px;*/
     background-image: url('slider\ banner\ 1\ \(1\).webp');
     background-size: 100% 199px;
     height: 200px;
